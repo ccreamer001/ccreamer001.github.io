@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
     <header>
         <h1>Welcome to My Professional Homepage</h1>
         <nav>
@@ -21,13 +20,20 @@
             </ul>
         </nav>
     </header>
-
     <main>
         <section id="about">
             <h2>About Me</h2>
-            <p>I am a student developer learning the ropes of web deployment and version control through GitHub.</p>
+            <p>
+                I am an aspiring Software Developer currently studying at <strong>ECPI University</strong>. 
+                My journey into technology began with a fascination for how systems connect and communicate, 
+                leading me to dive deep into Networking and C programming.
+            </p>
+            <p>
+                Currently, I am focused on mastering Front-End Development, utilizing HTML5 and CSS3 to 
+                create responsive, user-friendly web experiences. I enjoy the challenge of solving complex 
+                logic problems while ensuring a polished, professional look for the end-user.
+            </p>
         </section>
-
         <section id="projects">
             <h2>Projects</h2>
             <table>
@@ -57,27 +63,30 @@
 
         <section id="contact">
             <h2>Contact</h2>
-            <form action="#" method="post" class="contact-form">
+            
+            <div class="social-links">
+                <p>Connect with me on 
+                    <a href="https://www.linkedin.com/in/chris-creamer-31109a111" target="_blank">LinkedIn</a>
+                </p>
+            </div>
+                    <p>You can also reach me directly using the form below:</p>
+                        <form action="#" method="post" class="contact-form">
                 <div class="form-group">
                     <label for="sender-name">Name:</label>
                     <input type="text" id="sender-name" name="sender-name" required>
                 </div>
-
                 <div class="form-group">
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" required>
                 </div>
-
                 <div class="form-group">
                     <label for="subject">Subject:</label>
                     <input type="text" id="subject" name="subject">
                 </div>
-
                 <div class="form-group">
                     <label for="message">Message:</label>
                     <textarea id="message" name="message" rows="5"></textarea>
                 </div>
-
                 <button type="submit" class="submit-btn">Submit</button>
             </form>
         </section>
