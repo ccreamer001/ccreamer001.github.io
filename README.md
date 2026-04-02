@@ -60,4 +60,4 @@ Provide instructions on how to set up the project locally. This could include:
 
 ### Server Verification
 Below is a capture of the local server environment during testing:
-![Localhost Server Check](assets/screenshot.jpg)
+(screenshot.png)
