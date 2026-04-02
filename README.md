@@ -53,3 +53,11 @@ Provide instructions on how to set up the project locally. This could include:
 1. Cloning the repository
    ```bash
    git clone https://github.com/ccreamer001/ccreamer001.git
+### Installation & Setup
+1. Clone the repository.
+2. Move the folder to your `xampp/htdocs/` directory.
+3. Ensure Apache is running on Port 80.
+
+### Server Verification
+Below is a capture of the local server environment during testing:
+![Localhost Server Check](assets/screenshot.jpg)
